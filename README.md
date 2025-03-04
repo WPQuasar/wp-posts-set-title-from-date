@@ -13,16 +13,16 @@ A Python script to update WordPress post titles based on their publication date.
 ## Installation
 1. Create and activate a virtual environment:
    ```sh
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate
    ```
 2. Install dependencies:
    ```sh
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 ## Usage
 Run the script with database credentials:
 ```sh
-python wp_posts_set_title_from_date.py --host YOUR_DB_HOST --user YOUR_DB_USER --password YOUR_DB_PASSWORD --database YOUR_DB_NAME
+python3 wp_posts_set_title_from_date.py --host YOUR_DB_HOST --user YOUR_DB_USER --password YOUR_DB_PASSWORD --database YOUR_DB_NAME
 ```
